@@ -13,7 +13,7 @@ def main():
 
     # Check if the input is valid
     if n <= 0:
-        print("Please enter a positive integer.")
+        print("Please enter positive integer.")
         return
 
     fib_sequence = fibonacci(n)  # Generate the Fibonacci sequence
