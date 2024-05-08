@@ -6,7 +6,7 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - checkout
-      - run: python fibonacci.py
+      - run: python fibonacci.py 10
 
 workflows:
   build_now:
